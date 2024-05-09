@@ -7,6 +7,7 @@ import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
 import Login from "../Pages/Registration/Login";
 import Cart from "../Pages/Cart/Cart";
+import UserLayout from "../Layout/UserLayout";
 
 const router = createBrowserRouter([
     {
@@ -16,39 +17,37 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
-                children: [
-                    {
-                        path: "/about",
-                        element: <About></About>
-                    },
-                    {
-                        path: "/services",
-                        element: <Services></Services>
-                    },
-                    {
-                        path: "/blog",
-                        element: <Blog></Blog>
-                    },
-                    {
-                        path: "/contact",
-                        element: <Contact></Contact>
-                    },
-                ]
             },
             {
-                path: "/user",
-                element: <MainLayout></MainLayout>,
-                children: [
-                    {
-                        path: "/user/login",
-                        element: <Login></Login>
-                    },
-                    {
-                        path: '/user/cart',
-                        element: <Cart></Cart>
-                    }
-                ]
+                path: "/about",
+                element: <About></About>
             },
+            {
+                path: "/services",
+                element: <Services></Services>
+            },
+            {
+                path: "/blog",
+                element: <Blog></Blog>
+            },
+            {
+                path: "/contact",
+                element: <Contact></Contact>
+            },
+        ]
+    },
+    {
+        path: "/user",
+        element: <UserLayout></UserLayout>,
+        children: [
+            {
+                path: "/user/login",
+                element: <Login></Login>
+            },
+            {
+                path: '/user/cart',
+                element: <Cart></Cart>
+            }
         ]
     },
 ]);
