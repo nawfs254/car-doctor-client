@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      primary: "#FF3811",
+      orange: "#FF3811"
+    }
   },
   plugins: [
     require('daisyui'),

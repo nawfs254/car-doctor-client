@@ -1,7 +1,10 @@
+import NavbarDefauls from "../../Components/NavbarDefauls";
+
 const Home = () => {
     return (
+
         <div>
-            Homepage
+            <NavbarDefauls></NavbarDefauls>
         </div>
     );
 };
