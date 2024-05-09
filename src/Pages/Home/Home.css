@@ -1,0 +1,23 @@
+#slide1{
+    background-image: linear-gradient(to right, #151515FF, #15151580), url('../../assets/images/banner/1.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+
+#slide2{
+    background-image: linear-gradient(to right, #151515FF, #15151500), url('../../assets/images/banner/2.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+
+#slide3{
+    background-image: linear-gradient(to right, #151515FF, #15151500), url('../../assets/images/banner/3.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+
+#slide4{
+    background-image: linear-gradient(to right, #151515FF, #15151500), url('../../assets/images/banner/4.jpg');
+    background-size: cover;
+    background-repeat: none;
+}

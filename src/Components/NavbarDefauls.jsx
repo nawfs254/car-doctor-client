@@ -33,11 +33,11 @@ const NavbarDefauls = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div className="icons flex text-xl items-center gap-5 px-8">
+                <div className="icons hidden md:flex text-xl items-center gap-5 px-8">
                     <SlHandbag />
                     <FiSearch />
                 </div>
-                <button className="btn btn-outline border-orange text-orange text-lg px-7">Appointment</button>
+                <button className="btn btn-outline border-orange text-orange text-base md:text-lg px-2 md:px-7">Appointment</button>
             </div>
         </div>
     );
