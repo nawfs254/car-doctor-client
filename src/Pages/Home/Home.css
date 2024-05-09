@@ -21,3 +21,19 @@
     background-size: cover;
     background-repeat: none;
 }
+
+#personImg{
+    background-image: url("../../assets/images/about_us/person.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#partsImg{
+    background-image: url("../../assets/images/about_us/parts.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 10px;
+}
